@@ -1,0 +1,52 @@
+[root@ip-172-31-3-218 ~]# history
+    1    sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    2    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    3    yum install fontconfig java-11-openjdk
+    4    yum install jenkins
+    5    
+    6  ps -ef | grep jenkins
+    7  systemctl status jenkins
+    8  systemctl start jenkins
+    9  systemctl status jenkins
+   10  journalctl -xe
+   11  java
+   12  yum install fontconfig java-11-openjdk
+   13  yum install java
+   14  yum install java-11
+   15  java
+   16  systemctl status jenkins
+   17  systemctl restart jenkins
+   18  systemctl status jenkins
+   19  systemctl start jenkins
+   20  systemctl status jenkins
+   21  cat /var/lib/jenkins/secrets/initialAdminPassword
+   22  ls -ltrh
+   23  which jenkins
+   24  whereis jenkins
+   25  cd /usr/share/jenkins/
+   26  ls -ltrh
+   27  cd
+   28  cd ~/.jenkins
+   29  cd -
+   30  pwd
+   31  ls -ltrh
+   32  cd migr
+   33  ls -ltrh
+   34  pwd
+   35  which jenkins
+   36  whereis jenkins
+   37  cd /opt/
+   38  ls -ltrh
+   39  ls -l aws/
+   40  cd .
+   41  cd
+   42  ls -la ~/
+   43  git
+   44  yum install git
+   45  history
+   
+      47  sleep 3400
+   48  sleep 3400 &
+   49  jobs
+   50  jobs -p
+   51  fg
